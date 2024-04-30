@@ -2,7 +2,7 @@ const getcolor =()=>{
 
   
     // hax code
-    const randumnumber =  Math.floor(Math.random()*1677215 ) 
+    const randumnumber =  Math.floor(Math.random()*16777216 ) 
 
     const randumcode= "#" + randumnumber.toString(16)
     document.body.style.background = randumcode
